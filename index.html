@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>변승원 온라인명함</title>
+    <link rel="stylesheet" href="./css/namecard.css">
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+<body>
+    <div class="bg_top">
+        <div class="div"></div>
+        <div class="header">
+                <div class="face"><img src="./images/face.png" alt="face"></div>
+                <div class="name">변승원</div>
+                <div class="position">웹 퍼블리셔</div>
+            </div>
+        
+            <div class="textbox">
+                <div class="big">“행복하게 살자”</div>
+                <div class="small">Be happy</div>
+            </div>
+        
+            <div class="btnbox">
+                <a href="tel:010-7151-7669" class="call">전화문의</a>
+                <a href="sms:010-7151-7669" class="sms">문자문의</a>
+                <a href="https://open.kakao.com/o/sSXq8L1h" class="kakao">카톡문의</a>
+                <a href="mailTo:swbyun0614@gmail.com" class="e-mail">e-mail</a>
+            </div>
+    </div>
+
+    <div class="photobox">
+        <div class="title">Work</div>
+        <ul class="imgbox">
+            <div>
+                <li><img class="img1" src="./images/Mask group@2x.png" alt=""></li>
+                <li><img class="img2" src="./images/Mask group@2x-2.png" alt=""></li>
+            </div>
+            <div>
+                <li><img class="img3" src="./images/Mask group@2x-1.png" alt=""></li>
+                <li><img class="img4" src="./images/Mask group@2x-3.png" alt=""></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="bg_bottom">
+        <div class="margin_box"></div>
+        <div class="direction">
+            <div class="title">오시는 길</div>
+            <div class="direct_map">
+                            <!-- * 카카오맵 - 지도퍼가기 -->
+                <!-- 1. 지도 노드 -->
+                <div id="daumRoughmapContainer1763013429163" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%;"></div>
+    
+                <!--
+                    2. 설치 스크립트
+                    * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1763013429163",
+                        "key" : "chc9vvrt48j",
+                        "mapHeight" : "400"
+                    }).render();
+                </script>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

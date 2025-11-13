@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: #000; text-decoration: none;}
+body {font-family: Presentation; background: #FBF8F1;}
+
+/* body > div {border: 1px solid red;}
+body > div > * {border: 1px dashed; box-sizing: border-box;} */
+
+.bg_top {
+    background: url(../images/bg_photobox.png) repeat-x; /* background-size: 430px; */
+}
+.div {
+    height: 40px;
+}
+
+.header {
+    margin-bottom: 60px; text-align: center;
+}
+    .header .face {
+        width: 110px; height: 110px; margin: 0px auto 20px auto; border-radius: 50%; overflow: hidden;
+    }
+        .header .face img {
+            width: 100%;
+        }
+    .header .name {
+        font-weight: 500; font-size: 24px; margin-bottom: 5px;
+    }
+    .header .position {
+        font-size: 16px; color: #717171;
+    }
+
+.textbox {
+    margin-bottom: 60px; text-align: center;;
+}
+    .textbox .big {
+        font-size: 20px; font-family: Cafe24SurroundAir; color: #fff
+    }
+    .textbox .small {
+        font-size: 12px; font-family: Cafe24SurroundAir; color: #afc2df;
+    }
+
+.btnbox {
+    margin-bottom: 60px; padding: 0 30px;
+}
+    .btnbox a {
+        display: block; background-image: linear-gradient(to bottom, #5783C5, #FBF8F1); padding: 13px 0; text-align: center; margin-bottom: 10px; border-radius: 20px; font-size: 16px; color: #000;
+    }
+    .btnbox a:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+.photobox {
+    margin-bottom: 0px;
+}
+    .photobox .title {
+        font-size: 16px; text-align: center; margin-bottom: 30px; font-weight: 600;
+    }
+    .photobox .imgbox {
+        display: flex; gap: 0px 16px; flex-wrap: wrap; justify-content: center;
+    }
+        .photobox .imgbox li {
+            width: 120px; height: 120px; flex-shrink: 0; margin-top: 12px;
+        }
+        .photobox .imgbox .img1 {
+            margin-top: 0; border-radius: 50% 0 0 0;
+        }
+        .photobox .imgbox .img2 {
+            margin-top: 0; border-radius: 0 0 0 50%;
+        }
+        .photobox .imgbox .img3 {
+            margin-top: 0; border-radius: 0 50% 0 0;
+        }
+        .photobox .imgbox .img4 {
+            margin-top: 0; border-radius: 0 0 50% 0;
+        }
+        
+        .photobox .imgbox div:nth-child(even) {margin-top: 33px;}
+        /* odd는 홀수, even은 짝수 */
+        .photobox .imgbox li img {
+            width: 100%;
+        }
+
+.bg_bottom {
+     background: url(../images/bg_photobox2.png) repeat-x;
+}
+.margin_box {
+    height: 60px;
+}
+.direction {
+    margin-bottom: 60px; padding: 0 30px;
+}
+    .direction .title {
+        font-size: 16px; text-align: center; margin-bottom: 30px; font-weight: 600;
+    }
+    .direction .direct_map {
+        height: 400px;
+    }
