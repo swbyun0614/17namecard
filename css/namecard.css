@@ -8,6 +8,13 @@ body {font-family: Presentation; background: #FBF8F1;}
 /* body > div {border: 1px solid red;}
 body > div > * {border: 1px dashed; box-sizing: border-box;} */
 
+.qrimg {
+    width: 50px; position: absolute; /* 다른 녀석들 위에 떠 있는 상태 */ left: 20px; top: 25px;
+}
+    .qrimg img {
+        width: 100%;
+    }
+
 .bg_top {
     background: url(../images/bg_photobox.png) repeat-x; /* background-size: 430px; */
 }
